@@ -1,0 +1,268 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4814299f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <video autoplay loop muted id="background-video">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+
+    <div id="container">
+        <nav>
+            <img src="logo" alt="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#protfolio">Protfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-xmark" onclick="closemenu()" ></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()" ></i>
+
+        </nav>
+        <div class="header-text">
+            <p>Website Designer</p>
+            <h1>Hi, I'm <span>Peshal</span><br>Karki From Nepal</h1>
+        </div>
+    </div>
+ </div>
+ <!---------------about------------------------------->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="po.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I am a passionate web designer with a strong foundation in IT, currently pursuing my studies at ISMT College in Biratnagar. My focus is on creating user-friendly, visually appealing websites while mastering the technical skills required for modern web development. With expertise in HTML, CSS, JavaScript, and various web frameworks, I strive to blend creativity with functionality to deliver seamless digital experiences. I’m excited to continue building my skills and grow as a developer in the ever-evolving tech industry.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span> <br>Web Development</li>
+                        <li><span>Editing </span><br>Video Editing</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2022 - Current</span> <br>Web Developer at Canyon It</li>
+                    
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2023</span><br>High School <br>At Pokhariya Secondary Boarding School</li>
+                        <li><span>Current </span><br>Bsc it from Ismt</li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+ </div>
+ <!---------------services------------------------------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>I create websites that feel personal and easy to navigate. Each page is designed to showcase your services clearly, with a friendly layout, compelling visuals, and a simple way for visitors to reach out or learn more.
+
+            </p>
+            <a href="#">Learn more</a>
+
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>I create intuitive and visually engaging UI/UX designs that enhance user experience, making interactions seamless and enjoyable.
+
+            </p>
+            <a href="#">Learn more</a>
+
+        </div>
+        <div>
+            <i class="fa-solid fa-video"></i>
+            <h2>Editing</h2>
+            <p>I refine written content by correcting errors, improving structure, and maintaining a consistent tone and style. I also enhance videos through editing, ensuring smooth transitions, compelling visuals, and polished final output.
+
+            </p>
+            <a href="#">Learn more</a>
+
+        </div>
+    </div>
+    </div>
+ </div>
+ <!------------------protfolio-------------->
+<div id="protfolio">
+    <div class="container">
+        <h1 class="sub-title">My WORK</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.jpg" alt="">
+                <div class="layer">
+                    <h3>Editing</h3>
+                    <p>It helps refine footage, add effects, and improve storytelling, making content more engaging and polished. Video editing is essential for creators, businesses, and personal projects to fix mistakes and enhance visuals.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jpg" alt="">
+                <div class="layer">
+                    <h3>Developer</h3>
+                    <p>It helps by building and maintaining software, websites, and applications to solve problems, improve user experiences, and enhance functionality.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work 3.jpg" alt="">
+                <div class="layer">
+                    <h3>Designing</h3>
+                    <p>It helps create intuitive, visually appealing designs that enhance user experiences, making websites and apps easy to navigate and enjoyable to use.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+
+    </div>
+</div> 
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>Karkipeshal41@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+977 9815354452</p>
+                <div class="social-icons">
+                    <!-------------------------------------links of social media-->
+                    <a href="https://www.facebook.com/peshal.karki.qw23/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/G4hEvi"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=" https://www.instagram.com/peshal_karki8/"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="mycv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+               <form name="submit-to-google-sheet">
+
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email"name="Email"placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+               </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i>Copyright @ Peshal. Made with myself</p>
+    </div>
+</div>
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+    
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+    
+        var activeLink = document.getElementById(tabname);
+        if (activeLink) {
+            activeLink.classList.add("active-link");
+        }
+
+        var activeTabContent = document.getElementById(tabname + "-content");
+        if (activeTabContent) {
+            activeTabContent.classList.add("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw_Dd2xrJg6Nb9wJO5ZAuDvKU7eWHeK3xMGWy3FUagyLZiVpd_Rrm-81jemSuodo6KH/exec';
+   const form = document.forms['submit-to-google-sheet'];
+const msg = document.createElement('p');
+msg.style.color = 'green';
+msg.style.fontWeight = 'bold';
+msg.style.fontSize = '16px';
+msg.style.marginTop = '10px';
+msg.style.textAlign = 'center';
+form.appendChild(msg);
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    
+    // Cool Loading Animation (Dots)
+    let dots = 0;
+    msg.innerText = "Submitting";
+    msg.style.color = "#3498db"; // Blue color
+    msg.style.fontSize = "18px";
+    
+    const loadingAnimation = setInterval(() => {
+        dots = (dots + 1) % 4;
+        msg.innerText = "Submitting" + ".".repeat(dots);
+    }, 500);
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+            clearInterval(loadingAnimation);
+            msg.innerText = "✅ Message sent successfully!";
+            msg.style.color = "green";
+            msg.style.fontSize = "18px";
+            form.reset();
+        })
+        .catch(error => {
+            clearInterval(loadingAnimation);
+            msg.innerText = "❌ Submission failed. Try again!";
+            msg.style.color = "red";
+        });
+});
+
+document.documentElement.style.scrollBehavior = "smooth";
+
+
+  </script>
+
+    
+</body>
+</html>
