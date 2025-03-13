@@ -260,6 +260,12 @@ form.addEventListener('submit', (e) => {
 
 document.documentElement.style.scrollBehavior = "smooth";
 
+    function decodeEmail() {
+      var email = ["k", "a", "r", "k", "i", "p", "e", "s", "h", "a", "l", "4", "1", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"];
+      var decodedEmail = email.join('');
+      document.getElementById('email').innerHTML = `<a href="mailto:${decodedEmail}">${decodedEmail}</a>`;
+    }
+
 
   </script>
 
